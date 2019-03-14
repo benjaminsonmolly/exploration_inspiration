@@ -1,0 +1,27 @@
+h1 {
+  font-family: 'Overpass';
+  font-size: 24px;
+}
+
+hr {
+       display: block;
+       position: relative;
+       padding: 0;
+       margin: 8px auto;
+       height: 0;
+       width: 400px;
+       max-height: 0;
+       font-size: 1px;
+       line-height: 0;
+       clear: both;
+       border: none;
+       border-top: 1px solid #aaaaaa;
+       border-bottom: 1px solid #ffffff;
+    }
+
+button {
+  height: 50px;
+  width: 50px;
+  outline: none;
+  margin-left:175px;
+}

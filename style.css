@@ -1,19 +1,24 @@
 h1 {
   font-family: 'Overpass';
   font-size: 32px;
-  color: #eeeeee;
+  color: #222831;
+  padding-top: 4px;
   margin-left: 75px;
   margin-right: 75px;
   text-align: center;
+  margin-top: 0;
 }
 
 h2 {
   font-family: 'Overpass';
-  font-size: 18px;
-  color: #eeeeee;
+  font-size: 16px;
+  color: #222831;
+  padding-top: 15px;
+  padding-bottom: 0px;
   margin-left: 75px;
   margin-right: 75px;
   text-align: center;
+  margin-top: 0;
 }
 
 h3 {
@@ -22,22 +27,29 @@ h3 {
   color: #eeeeee;
   margin-left: 75px;
   margin-right: 75px;
+
+  text-align: center;
+}
+
+p {
+  color: #eeeeee;
+  font-size: 16px;
   text-align: center;
 }
 
 body {
-  background-color: #222831;
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
 
 button {
   font-family: 'Overpass';
-  color: #222831;
-  background-color: #ffa900;
+  color: #eeeeee;
+  background-color: #222831;
   font-size: 18px;
   height: 50px;
-  width: 100px;
+  width: 110px;
   outline: none;
-  margin-left: 110px;
+  margin-left: 105px;
   border-radius: 7%;
-  border-color: #ffa900;
+  border-color: #222831;
 }

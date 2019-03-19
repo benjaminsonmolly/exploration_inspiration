@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
-  var checkPageButton = document.getElementById('checkPage');
+  var inspireButton = document.getElementById('inspire');
   var inspirationArray = [
-    'Getting a coffee.', 'Doing the same step twice.', 'Using a different file format.', 'Screenrecording your process.'
+    'Go get a coffee.', 'Do the same step twice.', 'Use a different file format.', 'Screenrecord your process.'
   ];
-  if(checkPageButton){
-    checkPageButton.addEventListener('click', function() {
+  if(inspireButton){
+    inspireButton.addEventListener('click', function() {
       var random = inspirationArray[Math.floor(Math.random()*inspirationArray.length)];
-      alert(random);
+      document.getElementById("result").innerHTML = random
     }, false);
   }
 }, false);

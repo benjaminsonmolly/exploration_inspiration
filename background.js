@@ -1,12 +1,20 @@
 document.addEventListener('DOMContentLoaded', function() {
   var inspireButton = document.getElementById('inspire');
-  var inspirationArray = [
-    'Go get a coffee.', 'Do the same step twice.', 'Use a different file format.', 'Screenrecord your process.', 'Resize your browser window.', 'Invert all the colors.', 'Click every button three times in a row.'
+  var inspirationOne = [
+    'Go', 'Do', 'Use', 'Record', 'Resize', 'Invert', 'Click'
+  ];
+  var inspirationTwo = [
+    ' the', ' your', ' a'
+  ];
+  var inspirationThree = [
+    ' imagination.', ' same step twice.', ' different file format.', ' process.', ' browser window.', ' colors.', ' button three times.'
   ];
   if(inspireButton){
     inspireButton.addEventListener('click', function() {
-      var random = inspirationArray[Math.floor(Math.random()*inspirationArray.length)];
-      document.getElementById("result").innerHTML = random
+      var randomOne = inspirationOne[Math.floor(Math.random()*inspirationOne.length)];
+      var randomTwo = inspirationTwo[Math.floor(Math.random()*inspirationTwo.length)];
+      var randomThree = inspirationThree[Math.floor(Math.random()*inspirationThree.length)];
+      document.getElementById("result").innerHTML = randomOne + randomTwo + randomThree;
     }, false);
   }
 }, false);
